@@ -1,16 +1,15 @@
 import React from "react";
 import type { Metadata } from "next";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'aos';
 import '@fontsource/poppins';
-//import localFont from "next/font/local";
 import "./styles/homepage.css";
 import "./styles/utilities.css";
+import "aos/dist/aos.css";
 import "./styles/sign-in.css";
 import './styles/complete-checkout.css';
 import './styles/sign-up.css';
 import './styles/sidebar.css';
-//import 'aos';
+import './styles/navbar-log-in.css';
 
 
 export const metadata: Metadata = {

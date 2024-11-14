@@ -5,7 +5,8 @@
     "plugin:storybook/recommended"
   ],
   "rules": {
-    "react/no-unknown-property": ["disabled", { "ignore": ["mask-type"] }]
+    "react/no-unknown-property": ["disabled", { "ignore": ["mask-type"] }],
+    "jsx-ally/anchor-is-va;id":"off"
 }
   
 }
