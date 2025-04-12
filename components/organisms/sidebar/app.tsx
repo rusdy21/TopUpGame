@@ -12,7 +12,7 @@ export default function SideBar() {
                     <p className="color-palette-2 m-0">shayna@anne.com</p>
                 </div>
                 <div className="menus">
-                    <SideBarItem icon='overview' link='member/overview' name='Overview'/>
+                    <SideBarItem  icon='overview' link='member/overview' name='Overview' active/>
                     <SideBarItem icon='transaction' link='member/overview' name='Transactions'/>
                     <SideBarItem icon='messages' link='member/overview' name='Messages'/>
                     <SideBarItem icon='card' link='member/overview' name='Card'/>
